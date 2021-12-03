@@ -10,6 +10,7 @@ It is a mature full-featured Python tool that helps to write better programs.
 
 
 Features Of pytest
+
 Does not require API to use.
 Can be used to run doc tests and unit tests.
 Gives useful failure information without the use of debuggers.
@@ -18,6 +19,7 @@ Has useful plugins.
 
 
 Advantages Of pytest
+
 It is open-source.
 It can skip tests and automatically detect the tests.
 Tests are run parallel.
