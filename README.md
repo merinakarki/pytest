@@ -24,8 +24,31 @@ Tests are run parallel.
 Specific tests and subsets of tests can be run from the program.
 It is easy to start with as it has a very easy syntax.
 
-How To Use Pytest Using Python
-![image](https://user-images.githubusercontent.com/91168990/144522811-204b51b5-a570-4be0-ba6c-a299dd5104aa.png)
+How To Install pytest In Linux
+
+Make a directory with a name suitable for you in which the Python files will take place.
+
+Make a directory using the command (mkdir <directory name>).
+Make a virtual environment, in which the installation of specific packages will take place rather than in the whole system.
+Run: `pip install -U pytest` or `pip install pytest` (make sure that the pip version should be the latest).
+
+![image](https://user-images.githubusercontent.com/91168990/144522811-204b51b5-a570-4be0-ba6c-a299dd5104aa.png
+  
+How To Use Pytest Using Python  
+Create a Python file with the name `helper_function.py`.
+Add the basic Python functions to it as below.
+
+  
+![image](https://user-images.githubusercontent.com/91168990/144527711-02d7c89b-4584-496d-8a4f-039772c480fd.png)
+
+In the above example, the function selects a random adjective from a list of adjective strings and a list of nouns from a list of noun strigs and combine 
+them together separated by a space.
+Now, it’s time to perform automatic testing using pytest.
+pytest expects the test file name to be in the format: ‘*_test.py’ or ‘test_*.py’
+Add the following code in that file.
+  
 ![image](https://user-images.githubusercontent.com/91168990/144522868-046d08f0-bb58-4c47-ad8f-dc4ad6d7f8dd.png)
 
+In order to run the test functions, remain in the same directory, and run the `pytest`, `py.test`, `py.test test_func.py` or `pytest test_func.py`.
+In the output, you will see all that the test cases are passed successfully.
 
