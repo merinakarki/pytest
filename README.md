@@ -9,6 +9,7 @@ The way pytest is designed is as a very extensible system, easy to write plugins
 It is a mature full-featured Python tool that helps to write better programs.
 
 
+
 Features Of pytest
 
 Does not require API to use.
@@ -20,6 +21,7 @@ Gives useful failure information without the use of debuggers.
 Can be written as a function or method.
 
 Has useful plugins.
+
 
 
 Advantages Of pytest
@@ -34,7 +36,9 @@ Specific tests and subsets of tests can be run from the program.
 
 It is easy to start with as it has a very easy syntax.
 
+
 How To Install pytest In Linux
+
 
 Make a directory with a name suitable for you in which the Python files will take place.
 
@@ -44,7 +48,9 @@ Run: `pip install -U pytest` or `pip install pytest` (make sure that the pip ver
 
 ![image](https://user-images.githubusercontent.com/91168990/144522811-204b51b5-a570-4be0-ba6c-a299dd5104aa.png
   
+  
 How To Use Pytest Using Python  
+  
 Create a Python file with the name `helper_function.py`.
 Add the basic Python functions to it as below.
 
